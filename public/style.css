@@ -1,0 +1,82 @@
+
+  @font-face {
+	font-family: Montserrat-Black;
+	src: url(Montserrat-Black.ttf); 
+  }
+  @font-face {
+	font-family: Montserrat-Light;
+	src: url(Montserrat-Light.ttf); 
+  }
+  @font-face {
+	font-family: Montserrat-Regular;
+	src: url(Montserrat-Regular.ttf); 
+  }
+  
+  
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, purple, rgb(163, 11, 168), rgb(23, 23, 219), #3b5998);
+	background-size: 400% 400%;
+	-webkit-animation: gradientBG 10s ease infinite;
+	        animation: gradientBG 10s ease infinite;
+}
+.container {
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	text-align: center;
+}
+h1 {
+	font-family: Montserrat-Black;
+	font-size: 50px;
+	color: #fff;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+p {
+	font-family: Montserrat-Light;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.2;
+}
+.name {
+	font-family: Montserrat-Regular;
+	font-size: 12px;
+	text-align: center;
+	color: #cccccc;
+	line-height: 1.4;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:50px;
+  }
+
+@-webkit-keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
