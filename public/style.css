@@ -6,7 +6,7 @@
 	-webkit-text-fill-color: transparent;
 }
 .CustomButtonStyle{
-    background:-webkit-linear-gradient(-45deg, #511980, rgb(114, 30, 168), rgb(23, 23, 219), #3b5998);
+    background: #5a4680;
     color: #fff;
     border-color: transparent;
 }
